@@ -9,9 +9,10 @@
     <Description>Eventlog class library,using the document: https://github.com/YanZhiwei/XiangJiang.Logging.EventLog/wiki; Welcome to pull request or star.</Description>
     <PackageIcon>nugetico.png</PackageIcon>
     <Copyright>Copyright YanZhiwei 2020</Copyright>
-    <PackageLicenseFile>MIT</PackageLicenseFile>
+    <PackageLicenseFile></PackageLicenseFile>
     <PackageProjectUrl>https://github.com/YanZhiwei/XiangJiang.Logging.EventLog</PackageProjectUrl>
     <RepositoryUrl>https://github.com/YanZhiwei/XiangJiang.Logging.EventLog</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,10 +23,6 @@
 
   <ItemGroup>
     <None Include="..\.assets\nugetico.png">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
-    <None Include="MIT">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
