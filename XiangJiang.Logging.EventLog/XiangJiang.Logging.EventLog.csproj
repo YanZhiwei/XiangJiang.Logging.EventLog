@@ -2,12 +2,33 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>YanZhiwei</Authors>
+    <Product>XiangJiang</Product>
+    <Company>YanZhiwei</Company>
+    <Description>Eventlog class library,using the document: https://github.com/YanZhiwei/XiangJiang.Logging.EventLog/wiki; Welcome to pull request or star.</Description>
+    <PackageIcon>nugetico.png</PackageIcon>
+    <Copyright>Copyright YanZhiwei 2020</Copyright>
+    <PackageLicenseFile>MIT</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/YanZhiwei/XiangJiang.Logging.EventLog</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/YanZhiwei/XiangJiang.Logging.EventLog</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Diagnostics.EventLog" Version="4.7.0" />
-    <PackageReference Include="XiangJiang" Version="1.0.7" />
+    <PackageReference Include="XiangJiang" Version="1.0.8" />
     <PackageReference Include="XiangJiang.Logging.Abstractions" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.assets\nugetico.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="MIT">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
