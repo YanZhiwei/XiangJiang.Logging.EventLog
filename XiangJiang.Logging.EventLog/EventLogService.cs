@@ -35,7 +35,6 @@ namespace XiangJiang.Logging.EventLog
 
         public void Dispose()
         {
-            
         }
 
         public void Error(string message)
