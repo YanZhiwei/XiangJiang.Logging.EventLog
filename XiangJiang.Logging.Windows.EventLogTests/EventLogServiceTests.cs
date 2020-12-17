@@ -3,6 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using XiangJiang.Logging.Abstractions;
 using XiangJiang.Logging.Windows.EventLog;
 
+
 namespace XiangJiang.Logging.Windows.EventLogTests
 {
     [TestClass]

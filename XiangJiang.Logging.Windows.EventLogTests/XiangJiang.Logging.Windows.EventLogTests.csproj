@@ -14,11 +14,12 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="XiangJiang.Infrastructure.Abstractions" Version="1.0.4" />
+    <PackageReference Include="XiangJiang" Version="1.0.9" />
+    <PackageReference Include="XiangJiang.Logging.Abstractions" Version="1.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\XiangJiang.Logging.EventLog\XiangJiang.Logging.Windows.EventLog.csproj" />
+    <ProjectReference Include="..\XiangJiang.Logging.Windows.EventLog\XiangJiang.Logging.Windows.EventLog.csproj" />
   </ItemGroup>
 
 </Project>
