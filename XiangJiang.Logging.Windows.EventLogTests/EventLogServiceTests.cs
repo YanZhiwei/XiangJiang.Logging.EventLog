@@ -1,9 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using XiangJiang.Logging.Abstractions;
-using XiangJiang.Logging.EventLog;
+using XiangJiang.Logging.Windows.EventLog;
 
-namespace XiangJiang.Logging.EventLogTests
+
+namespace XiangJiang.Logging.Windows.EventLogTests
 {
     [TestClass]
     public class EventLogServiceTests
