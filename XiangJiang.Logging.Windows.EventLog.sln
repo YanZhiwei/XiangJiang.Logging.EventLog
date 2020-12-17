@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XiangJiang.Logging.EventLog", "XiangJiang.Logging.EventLog\XiangJiang.Logging.EventLog.csproj", "{2C8B5060-8A4B-45EF-87C5-A61ADB97C945}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiangJiang.Logging.Windows.EventLog", "XiangJiang.Logging.EventLog\XiangJiang.Logging.Windows.EventLog.csproj", "{2C8B5060-8A4B-45EF-87C5-A61ADB97C945}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XiangJiang.Logging.EventLogTests", "XiangJiang.Logging.EventLogTests\XiangJiang.Logging.EventLogTests.csproj", "{B2C3C315-93C3-4FF9-9ED0-C5591259948E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XiangJiang.Logging.Windows.EventLogTests", "XiangJiang.Logging.EventLogTests\XiangJiang.Logging.Windows.EventLogTests.csproj", "{B2C3C315-93C3-4FF9-9ED0-C5591259948E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

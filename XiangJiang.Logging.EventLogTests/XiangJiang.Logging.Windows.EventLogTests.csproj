@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\XiangJiang.Logging.EventLog\XiangJiang.Logging.EventLog.csproj" />
+    <ProjectReference Include="..\XiangJiang.Logging.EventLog\XiangJiang.Logging.Windows.EventLog.csproj" />
   </ItemGroup>
 
 </Project>

@@ -5,7 +5,7 @@ using System.Threading;
 using XiangJiang.Common;
 using XiangJiang.Logging.Abstractions;
 
-namespace XiangJiang.Logging.EventLog
+namespace XiangJiang.Logging.Windows.EventLog
 {
     public sealed class EventLogService : ILogService
     {

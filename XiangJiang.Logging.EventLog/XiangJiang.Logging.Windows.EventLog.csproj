@@ -5,12 +5,12 @@
     <Authors>YanZhiwei</Authors>
     <Product>XiangJiang</Product>
     <Company>YanZhiwei</Company>
-    <Description>Eventlog class library,using the document: https://github.com/YanZhiwei/XiangJiang.Logging.EventLog/wiki; Welcome to pull request or star.</Description>
+    <Description>Eventlog class library,using the document: https://github.com/YanZhiwei/XiangJiang.Logging.Windows.EventLog/wiki; Welcome to pull request or star.</Description>
     <PackageIcon>nugetico.png</PackageIcon>
     <Copyright>Copyright YanZhiwei 2020</Copyright>
     <PackageLicenseFile></PackageLicenseFile>
-    <PackageProjectUrl>https://github.com/YanZhiwei/XiangJiang.Logging.EventLog</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/YanZhiwei/XiangJiang.Logging.EventLog</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/YanZhiwei/XiangJiang.Logging.Windows.EventLog</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/YanZhiwei/XiangJiang.Logging.Windows.EventLog</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Version>1.0.1</Version>
   </PropertyGroup>
