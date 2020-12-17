@@ -28,11 +28,6 @@ namespace XiangJiang.Logging.EventLog
             CreateEventLog(message, EventLogEntryType.SuccessAudit);
         }
 
-        public void Debug(string message, Exception ex)
-        {
-            CreateEventLog(message, EventLogEntryType.SuccessAudit, ex);
-        }
-
         public void Dispose()
         {
         }
@@ -62,19 +57,9 @@ namespace XiangJiang.Logging.EventLog
             CreateEventLog(message, EventLogEntryType.Information);
         }
 
-        public void Info(string message, Exception ex)
-        {
-            CreateEventLog(message, EventLogEntryType.Information, ex);
-        }
-
         public void Warn(string message)
         {
             CreateEventLog(message, EventLogEntryType.Warning);
-        }
-
-        public void Warn(string message, Exception ex)
-        {
-            CreateEventLog(message, EventLogEntryType.Warning, ex);
         }
 
         private void CreateEventLog(string message, EventLogEntryType logEntryType, Exception ex = null)
