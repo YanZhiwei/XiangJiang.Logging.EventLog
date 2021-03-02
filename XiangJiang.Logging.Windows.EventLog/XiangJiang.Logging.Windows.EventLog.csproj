@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFrameworks>net5.0-windows;netstandard2.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>YanZhiwei</Authors>
     <Product>XiangJiang</Product>
@@ -12,12 +12,12 @@
     <PackageProjectUrl>https://github.com/YanZhiwei/XiangJiang.Logging.Windows.EventLog</PackageProjectUrl>
     <RepositoryUrl>https://github.com/YanZhiwei/XiangJiang.Logging.Windows.EventLog</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="System.Diagnostics.EventLog" Version="5.0.0" />
-    <PackageReference Include="XiangJiang" Version="1.0.9" />
-    <PackageReference Include="XiangJiang.Logging.Abstractions" Version="1.0.1" />
+    <PackageReference Include="System.Diagnostics.EventLog" Version="5.0.1" />
+    <PackageReference Include="XiangJiang" Version="2.0.0" />
+    <PackageReference Include="XiangJiang.Logging.Abstractions" Version="1.0.2" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.assets\nugetico.png">
